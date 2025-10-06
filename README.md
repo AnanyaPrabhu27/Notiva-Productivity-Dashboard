@@ -31,6 +31,7 @@ Every feature is wrapped in a cohesive aesthetic with animations, gradients, and
 ## ✨ Pages Breakdown
 
 ### 🏠 Overview Page
+<img width="1846" height="996" alt="notivaDashboard" src="https://github.com/user-attachments/assets/aefc820f-0e7b-465c-9115-da98f3405f88" />
 
 - 🌈 **Lottie animation** hero with app branding
 - 📊 **Task insights**: Pie chart, task counter
@@ -39,6 +40,7 @@ Every feature is wrapped in a cohesive aesthetic with animations, gradients, and
 - 💎 **Design**: Pastel gradients, glowing glassmorphism, soft transitions
 
 ### ⏱️ Pomodoro Timer Page
+<img width="1294" height="833" alt="PomodoroTimer" src="https://github.com/user-attachments/assets/db14296d-17d5-451f-96fc-755dc7ec38ea" />
 
 - ⏲️ **Customizable durations** (1–180 min work, up to 60 min break)
 - 🎶 **Audio notifications** on session changes
@@ -47,6 +49,8 @@ Every feature is wrapped in a cohesive aesthetic with animations, gradients, and
 - 📅 **Daily logs** integrated with charts using Recharts
 
 ### 🗂️ Add Task Page
+<img width="712" height="926" alt="AddTask" src="https://github.com/user-attachments/assets/2307021e-9e9d-433c-ad8f-005ae82b00b2" />
+
 
 - 🧾 **Input fields**: title, day, date (calendar), time, category
 - 🧠 Built-in validation to prevent incomplete entries
@@ -54,6 +58,7 @@ Every feature is wrapped in a cohesive aesthetic with animations, gradients, and
 - 🧭 Seamless navigation after submission
 
 ### 📆 Timetable Page
+<img width="1833" height="993" alt="WeeklyTimetable" src="https://github.com/user-attachments/assets/264efca7-5f32-4fa7-af20-338bf10c56ad" />
 
 - 📋 **Weekly view**: Rows = time slots, Columns = days
 - 🔍 **Task cards** in each cell with delete option
