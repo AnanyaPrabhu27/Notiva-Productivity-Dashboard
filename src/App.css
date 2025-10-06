@@ -1,0 +1,161 @@
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+  --chalk-font: 'Patrick Hand', cursive;
+  --chalk-white: #ffffff;
+  --chalk-highlight: #a78bfa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--chalk-font);
+  background-color: var(--blackboard-bg);
+  color: var(--chalk-white);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--blackboard-bg);
+  font-family: var(--chalk-font);
+}
+.chalk-slate-input {
+  background-color: #2a2a2a; /* dark slate */
+  color: #eee;              /* chalky white text */
+  border: 2px dashed #eee;  /* chalk-like dashed border */
+  font-family: 'Courier New', Courier, monospace; /* chalky monospace font */
+  font-weight: bold;
+  text-shadow:
+    0 0 2px #fff,
+    0 0 5px #bbb;           /* subtle chalk glow */
+  box-shadow:
+    inset 0 0 5px #444;     /* slight inset for texture */
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.chalk-slate-input:focus {
+  box-shadow:
+    inset 0 0 8px #bbb,
+    0 0 8px #ddd;
+  border-color: #ddd;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+}
+
+.logo {
+  height: 4rem;
+  transition: filter 0.3s ease-in-out;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1em #6366f1aa);
+}
+
+.sticky-note {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background: linear-gradient(135deg, #65f5ff, #fef9e7);
+  border-radius: 0.5rem;
+  font-family: var(--chalk-font);
+}
+
+.sticky-note::before {
+  content: '';
+  position: absolute;
+  top: 0.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+}
+
+/* Blackboard-style input */
+.blackboard-input {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--chalk-white);
+  font-family: var(--chalk-font);
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.blackboard-input:focus {
+  outline: none;
+  border-color: var(--chalk-highlight);
+  background-color: rgba(20, 20, 20, 0.85);
+}
+
+/* Chalk font utility class */
+.font-chalk {
+  font-family: var(--chalk-font);
+}
+/* ===== React Calendar Custom Styles ===== */
+.react-calendar__tile {
+  color: #830071; /* Darker text for date numbers */
+  font-weight: 500;
+}
+
+.react-calendar__navigation button {
+  color: #830071; /* Darker text for month/year navigation */
+  font-weight: bold;
+}
+
+/* Fix styling for today's date in react-calendar */
+.react-calendar__tile--now {
+  background-color: #f9a8d4 !important; /* Light pink */
+  color: #4d2c3d !important;            /* Dark plum text */
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px #ec4899 inset;  /* Extra visibility */
+}
+
+/* Optional: When selected, still maintain a visible highlight */
+.react-calendar__tile--now.react-calendar__tile--active {
+  background-color: #ec4899 !important;  /* Stronger pink when selected */
+  color: white !important;
+}
+
+
+
+
+
+/* Spinning logo animation */
+@keyframes logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo.spin {
+    animation: logo-spin 20s linear infinite;
+  }
+}
+
+.read-the-docs {
+  color: #6b7280;
+}
