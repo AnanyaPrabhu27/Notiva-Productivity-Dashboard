@@ -8,7 +8,7 @@ import {
   Tooltip,
   Legend
 } from 'recharts';
-import { useTasks } from '../context/taskContext';
+import { useTasks } from '../context/TaskContext';
 import background from '../assets/img/background.png';
 import workStartSoundFile from '../assets/sounds/workstart.wav';
 import breakStartSoundFile from '../assets/sounds/beepstart.wav';
