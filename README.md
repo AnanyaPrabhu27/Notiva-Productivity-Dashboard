@@ -4,6 +4,12 @@
 
 ---
 
+<p align="center">
+  <a href="https://notiva-productivity-dashboard-wfcm-3d41f53td.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-Click%20Here-brightgreen?style=for-the-badge" alt="Live Demo"/>
+  </a>
+</p>
+
 ## 🌟 Overview
 
 **Notiva** is a responsive web application built with **React** and **Tailwind CSS**, designed to help users:
