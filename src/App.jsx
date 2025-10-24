@@ -4,7 +4,7 @@ import OverviewPage from './pages/Overview.jsx';
 import TimetablePage from './pages/Timetable.jsx';
 import PomodoroPage from './pages/PomodoroTimer.jsx';
 import AddTaskPage from './pages/AddTask.jsx';
-import { TaskProvider } from './context/taskContext';
+import { TaskProvider } from './context/TaskContext';
 
 // Helper component to place routing + AnimatePresence properly
 function AnimatedRoutes() {
