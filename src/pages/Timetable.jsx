@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, Component } from 'react';
-import { useTasks } from '../context/taskContext';
+import { useTasks } from '../context/TaskContext';
 import background from '../assets/img/background.png';
 import deleteIcon from '../assets/img/delete-web.png';
 import { motion } from 'framer-motion';
