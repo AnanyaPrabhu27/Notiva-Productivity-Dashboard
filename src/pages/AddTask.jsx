@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useTasks } from '../context/taskContext';
+import { useTasks } from '../context/TaskContext';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import background from '../assets/img/background.png';
