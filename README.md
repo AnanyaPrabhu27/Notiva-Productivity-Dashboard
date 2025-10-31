@@ -3,7 +3,7 @@
 > _Stay organized, focused, and visually inspired with Notiva — a beautifully designed productivity suite built for modern creators and students._
 
 ---
-## YOU CAN NOW MANAGE YOUR SCHEDULE HERE!! Check out the demo
+## 🌐Check out the demo
 
 <p align="center">
   <a href="https://notiva-productivity-dashboard-wfcm-3d41f53td.vercel.app/" target="_blank">
