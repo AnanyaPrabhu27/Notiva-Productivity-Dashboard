@@ -1,12 +1,12 @@
 # 🎨 Notiva – Productivity Workspace
 
-> _Stay organized, focused, and visually inspired with Notiva — a beautifully designed productivity suite built for modern creators and students._
+> _a beautifully designed productivity suite built for modern creators and students._
 
 ---
 ## 🌐Check out the demo
 
 <p align="center">
-  <a href="https://notiva-productivity-dashboard-wfcm-3d41f53td.vercel.app/" target="_blank">
+  <a href="https://notiva-productivity-dashboard-y2t6.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE%20DEMO-Click%20Here-brightgreen?style=for-the-badge" alt="Live Demo"/>
   </a>
 </p>
